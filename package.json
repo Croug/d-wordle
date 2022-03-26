@@ -1,0 +1,25 @@
+{
+  "name": "d-wordle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "register_commands": "./scripts/register_commands.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "deploy:dev": "node scripts/register_commands.js --dev",
+    "deploy": "node scripts/register_commands.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.29.0",
+    "discord.js": "^13.6.0",
+    "svg-png-converter": "^0.0.9",
+    "yargs": "^17.4.0"
+  }
+}
