@@ -50,7 +50,7 @@ function getEmptyRow(row) {
 function getKeyboard(closes, exacts, wrongs) {
   let ret = ''
   const maxWidth = (10 * keyWidth) + (9 * keyPadding)
-  const letters = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+  const letters = [..."QWERTYUIOPASDFGHJKLZXCVBNM"]
 
   const it = [
     letters.slice(0, 10),
